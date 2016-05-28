@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0EB7CC41CF981C30034F642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CC31CF981C30034F642 /* AppDelegate.swift */; };
+		A0EB7CC81CF981C30034F642 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CC71CF981C30034F642 /* GameViewController.swift */; };
+		A0EB7CCB1CF981C30034F642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EB7CC91CF981C30034F642 /* Main.storyboard */; };
+		A0EB7CCD1CF981C30034F642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EB7CCC1CF981C30034F642 /* Assets.xcassets */; };
+		A0EB7CD01CF981C30034F642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EB7CCE1CF981C30034F642 /* LaunchScreen.storyboard */; };
+		A0EB7CD81CF98DC80034F642 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EB7CD71CF98DC80034F642 /* GeometryFighter.scnassets */; };
+		A0EB7CDC1CF9A2370034F642 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CDB1CF9A2370034F642 /* ShapeType.swift */; };
+		A0EB7CE51CF9AAFA0034F642 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CDE1CF9AAFA0034F642 /* Double+Extensions.swift */; };
+		A0EB7CE61CF9AAFA0034F642 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CDF1CF9AAFA0034F642 /* Float+Extensions.swift */; };
+		A0EB7CE71CF9AAFA0034F642 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CE01CF9AAFA0034F642 /* GameHelper.swift */; };
+		A0EB7CE81CF9AAFA0034F642 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CE11CF9AAFA0034F642 /* Generics.swift */; };
+		A0EB7CE91CF9AAFA0034F642 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CE21CF9AAFA0034F642 /* Int+Extensions.swift */; };
+		A0EB7CEA1CF9AAFA0034F642 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CE31CF9AAFA0034F642 /* SCNAction+Extensions.swift */; };
+		A0EB7CEB1CF9AAFA0034F642 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CE41CF9AAFA0034F642 /* UIColor+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0EB7CC01CF981C30034F642 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EB7CC31CF981C30034F642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0EB7CC71CF981C30034F642 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A0EB7CCA1CF981C30034F642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0EB7CCC1CF981C30034F642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0EB7CCF1CF981C30034F642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0EB7CD11CF981C30034F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EB7CD71CF98DC80034F642 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
+		A0EB7CDB1CF9A2370034F642 /* ShapeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		A0EB7CDE1CF9AAFA0034F642 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		A0EB7CDF1CF9AAFA0034F642 /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
+		A0EB7CE01CF9AAFA0034F642 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		A0EB7CE11CF9AAFA0034F642 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		A0EB7CE21CF9AAFA0034F642 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		A0EB7CE31CF9AAFA0034F642 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		A0EB7CE41CF9AAFA0034F642 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0EB7CBD1CF981C30034F642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0EB7CB71CF981C30034F642 = {
+			isa = PBXGroup;
+			children = (
+				A0EB7CC21CF981C30034F642 /* GeometryFighter */,
+				A0EB7CC11CF981C30034F642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0EB7CC11CF981C30034F642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB7CC01CF981C30034F642 /* GeometryFighter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0EB7CC21CF981C30034F642 /* GeometryFighter */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB7CDD1CF9AAFA0034F642 /* GameUtils */,
+				A0EB7CC31CF981C30034F642 /* AppDelegate.swift */,
+				A0EB7CDB1CF9A2370034F642 /* ShapeType.swift */,
+				A0EB7CC71CF981C30034F642 /* GameViewController.swift */,
+				A0EB7CC91CF981C30034F642 /* Main.storyboard */,
+				A0EB7CD71CF98DC80034F642 /* GeometryFighter.scnassets */,
+				A0EB7CCC1CF981C30034F642 /* Assets.xcassets */,
+				A0EB7CCE1CF981C30034F642 /* LaunchScreen.storyboard */,
+				A0EB7CD11CF981C30034F642 /* Info.plist */,
+			);
+			path = GeometryFighter;
+			sourceTree = "<group>";
+		};
+		A0EB7CDD1CF9AAFA0034F642 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB7CDE1CF9AAFA0034F642 /* Double+Extensions.swift */,
+				A0EB7CDF1CF9AAFA0034F642 /* Float+Extensions.swift */,
+				A0EB7CE01CF9AAFA0034F642 /* GameHelper.swift */,
+				A0EB7CE11CF9AAFA0034F642 /* Generics.swift */,
+				A0EB7CE21CF9AAFA0034F642 /* Int+Extensions.swift */,
+				A0EB7CE31CF9AAFA0034F642 /* SCNAction+Extensions.swift */,
+				A0EB7CE41CF9AAFA0034F642 /* UIColor+Extensions.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0EB7CBF1CF981C30034F642 /* GeometryFighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EB7CD41CF981C30034F642 /* Build configuration list for PBXNativeTarget "GeometryFighter" */;
+			buildPhases = (
+				A0EB7CBC1CF981C30034F642 /* Sources */,
+				A0EB7CBD1CF981C30034F642 /* Frameworks */,
+				A0EB7CBE1CF981C30034F642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryFighter;
+			productName = GeometryFighter;
+			productReference = A0EB7CC01CF981C30034F642 /* GeometryFighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0EB7CB81CF981C30034F642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Liudong;
+				TargetAttributes = {
+					A0EB7CBF1CF981C30034F642 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A0EB7CBB1CF981C30034F642 /* Build configuration list for PBXProject "GeometryFighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0EB7CB71CF981C30034F642;
+			productRefGroup = A0EB7CC11CF981C30034F642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0EB7CBF1CF981C30034F642 /* GeometryFighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0EB7CBE1CF981C30034F642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EB7CD01CF981C30034F642 /* LaunchScreen.storyboard in Resources */,
+				A0EB7CCD1CF981C30034F642 /* Assets.xcassets in Resources */,
+				A0EB7CCB1CF981C30034F642 /* Main.storyboard in Resources */,
+				A0EB7CD81CF98DC80034F642 /* GeometryFighter.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0EB7CBC1CF981C30034F642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EB7CE61CF9AAFA0034F642 /* Float+Extensions.swift in Sources */,
+				A0EB7CEB1CF9AAFA0034F642 /* UIColor+Extensions.swift in Sources */,
+				A0EB7CE51CF9AAFA0034F642 /* Double+Extensions.swift in Sources */,
+				A0EB7CEA1CF9AAFA0034F642 /* SCNAction+Extensions.swift in Sources */,
+				A0EB7CE81CF9AAFA0034F642 /* Generics.swift in Sources */,
+				A0EB7CC81CF981C30034F642 /* GameViewController.swift in Sources */,
+				A0EB7CDC1CF9A2370034F642 /* ShapeType.swift in Sources */,
+				A0EB7CE91CF9AAFA0034F642 /* Int+Extensions.swift in Sources */,
+				A0EB7CC41CF981C30034F642 /* AppDelegate.swift in Sources */,
+				A0EB7CE71CF9AAFA0034F642 /* GameHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0EB7CC91CF981C30034F642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EB7CCA1CF981C30034F642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0EB7CCE1CF981C30034F642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EB7CCF1CF981C30034F642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0EB7CD21CF981C30034F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0EB7CD31CF981C30034F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0EB7CD51CF981C30034F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dong liu (S9WB576XWR)";
+				INFOPLIST_FILE = GeometryFighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liudong.GeometryFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "940e9489-17c5-4ca5-8bb1-bc13e89de21d";
+			};
+			name = Debug;
+		};
+		A0EB7CD61CF981C30034F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeometryFighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liudong.GeometryFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0EB7CBB1CF981C30034F642 /* Build configuration list for PBXProject "GeometryFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EB7CD21CF981C30034F642 /* Debug */,
+				A0EB7CD31CF981C30034F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0EB7CD41CF981C30034F642 /* Build configuration list for PBXNativeTarget "GeometryFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EB7CD51CF981C30034F642 /* Debug */,
+				A0EB7CD61CF981C30034F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0EB7CB81CF981C30034F642 /* Project object */;
+}
