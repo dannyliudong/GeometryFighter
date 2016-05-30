@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05672F21CFC2F06004AA414 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = A05672F01CFC2F06004AA414 /* Trail.scnp */; };
+		A05672F31CFC2F06004AA414 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A05672F11CFC2F06004AA414 /* spark.png */; };
 		A0EB7CC41CF981C30034F642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CC31CF981C30034F642 /* AppDelegate.swift */; };
 		A0EB7CC81CF981C30034F642 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB7CC71CF981C30034F642 /* GameViewController.swift */; };
 		A0EB7CCB1CF981C30034F642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EB7CC91CF981C30034F642 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A05672F01CFC2F06004AA414 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		A05672F11CFC2F06004AA414 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		A0EB7CC01CF981C30034F642 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EB7CC31CF981C30034F642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0EB7CC71CF981C30034F642 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A05672EF1CFC2ED8004AA414 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				A05672F01CFC2F06004AA414 /* Trail.scnp */,
+				A05672F11CFC2F06004AA414 /* spark.png */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
 		A0EB7CB71CF981C30034F642 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +85,7 @@
 		A0EB7CC21CF981C30034F642 /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
+				A05672EF1CFC2ED8004AA414 /* Particles */,
 				A0EB7CDD1CF9AAFA0034F642 /* GameUtils */,
 				A0EB7CC31CF981C30034F642 /* AppDelegate.swift */,
 				A0EB7CDB1CF9A2370034F642 /* ShapeType.swift */,
@@ -157,6 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05672F21CFC2F06004AA414 /* Trail.scnp in Resources */,
+				A05672F31CFC2F06004AA414 /* spark.png in Resources */,
 				A0EB7CD01CF981C30034F642 /* LaunchScreen.storyboard in Resources */,
 				A0EB7CCD1CF981C30034F642 /* Assets.xcassets in Resources */,
 				A0EB7CCB1CF981C30034F642 /* Main.storyboard in Resources */,
@@ -334,6 +350,7 @@
 				A0EB7CD61CF981C30034F642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

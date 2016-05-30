@@ -92,6 +92,14 @@ class GameViewController: UIViewController {
         }
     }
     
+    func createTrail(color: UIColor, geometry: SCNGeometry) ->SCNParticleSystem {
+        let trail = SCNParticleSystem(named: "", inDirectory: nil)!
+        trail.particleColor = color
+        trail.emitterShape = geometry
+        
+        return trail
+    }
+    
     override func shouldAutorotate() -> Bool {
         return true
     }
